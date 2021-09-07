@@ -1,0 +1,11 @@
+ServerList
+serverliste senkronize erişim sağlanacak böylelikle her makine bağlandığında thread arası çaışma olmayacak
+aktif makineleri tutan liste olacak önce makine klası oluşması lazım
+Assembler
+mesajı assemble etmek için DataOutputStream alması lazım ona write yapıp geri döndürecek, onu çağıran method da döneni flush yapacak.
+
+MAKİNE KLASI OLUŞTURULACAK
+
+Client
+Server handler kısmı yazılıp serverden gelen cevaplar işlenecek
+input handler yazılıp sürekli girdi alınması sağlanacak
